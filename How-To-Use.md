@@ -21,6 +21,7 @@ Open the project in Xcode by selecting the ToDoListApp.xcodeproj file.
 Choose your target device (simulator or connected device) and click "Run" (or press Cmd + R) to install and run the app.
 
 ### Minimum Requirements
+- macOS 13.4+
 - Xcode 15 beta 4
 - iOS 17
   
