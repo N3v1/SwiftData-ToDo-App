@@ -9,15 +9,15 @@ This is a To-Do List App developed using SwiftUI. The app allows users to organi
 - Xcode 15 beta 4
 
 ## Features
-Add Tasks: Add new tasks by using the "Add" button and entering the name and additional details of the task.
+**Add Tasks:** Add new tasks by using the "New ToDo" button and entering the name and additional details of the task.
 
-Edit Tasks: You can edit existing tasks by selecting them from the list and making the desired changes.
+**Edit Tasks:** You can edit existing tasks by selecting them from the list and making the desired changes.
 
-Delete Tasks: If you have completed a task or no longer need it, you can delete it from the list.
+**Delete Tasks:** If you have completed a task or no longer need it, you can delete it from the list.
 
-Manage Task Status: Mark tasks as completed to track their progress and keep an overview of your activities.
+**Manage Task Status:** Mark tasks as completed to track their progress and keep an overview of your activities.
 
-User-friendly Interface: The app provides an intuitive user interface that allows you to easily organize and manage your tasks.
+**User-friendly Interface:** The app provides an intuitive user interface that allows you to easily organize and manage your tasks.
 
 ## Installation
 To install the app on your device, please follow these steps:
