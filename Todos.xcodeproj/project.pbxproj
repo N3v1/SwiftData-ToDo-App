@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3844CB8D2A5340FF0054548B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3844CB8C2A5340FF0054548B /* Settings.bundle */; };
 		38D64A362A52F79D0004CE24 /* TodosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D64A352A52F79D0004CE24 /* TodosApp.swift */; };
 		38D64A382A52F79D0004CE24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D64A372A52F79D0004CE24 /* ContentView.swift */; };
 		38D64A3A2A52F79E0004CE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D64A392A52F79E0004CE24 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3844CB8C2A5340FF0054548B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		3844CB8F2A53413B0054548B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		38D64A322A52F79D0004CE24 /* Todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D64A352A52F79D0004CE24 /* TodosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosApp.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 		38D64A292A52F79D0004CE24 = {
 			isa = PBXGroup;
 			children = (
-				3844CB8C2A5340FF0054548B /* Settings.bundle */,
 				38D64A342A52F79D0004CE24 /* Todos */,
 				38D64A332A52F79D0004CE24 /* Products */,
 			);
@@ -218,7 +215,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D64A3D2A52F79E0004CE24 /* Preview Assets.xcassets in Resources */,
-				3844CB8D2A5340FF0054548B /* Settings.bundle in Resources */,
 				38D64A3A2A52F79E0004CE24 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
