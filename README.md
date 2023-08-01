@@ -24,6 +24,10 @@ To install the app on your device, please follow these steps:
 - Make sure you have Xcode 15 beta 4 installed on your Mac.
 - Clone this repository to your computer:
 
+```bash
+git clone https://github.com/N3v1/Apple-Calculator-Rebuild.git
+```
+
 ## Technical Details
 ### Technologies
 This app was developed using the following technologies:
