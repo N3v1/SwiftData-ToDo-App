@@ -36,6 +36,9 @@ This app was developed using the following technologies:
 
    Link to the Swift Data documentation [**here**](https://developer.apple.com/documentation/swiftdata/).
 
+### How to use this app
+
+
 ### Contributing
 If you would like to contribute to this project, I welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code.
 
