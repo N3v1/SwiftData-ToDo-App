@@ -23,9 +23,24 @@ This is a To-Do List App developed using SwiftUI. The app allows users to organi
 To install the app on your device, please follow these steps:
 - Make sure you have Xcode 15 beta 4 installed on your Mac.
 - Clone this repository to your computer:
-   ``` bash
-  git clone https://github.com/N3v1/To-Do-App.git
-  ```
 
-- Open the project in Xcode by selecting the ToDoListApp.xcodeproj file.
-- Choose your target device (simulator or connected device) and click "Run" (or press Cmd + R) to install and run the app.
+## Technical Details
+### Technologies
+This app was developed using the following technologies:
+
+- **SwiftUI:** A declarative user interface framework that allows you to create user-friendly and reactive apps.
+
+   Link to the SwiftUI documentation [**here**](https://developer.apple.com/xcode/swiftui/).
+
+- **SwiftData:** A powerful database management framework that ensures your tasks are stored reliably and efficiently. 
+
+   Link to the Swift Data documentation [**here**](https://developer.apple.com/documentation/swiftdata/).
+
+### Contributing
+If you would like to contribute to this project, I welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code.
+
+### License
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for more information.
+
+### Known issues
+None
