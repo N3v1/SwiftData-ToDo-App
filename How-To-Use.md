@@ -23,3 +23,11 @@ Choose your target device (simulator or connected device) and click "Run" (or pr
   
 <img align="right" width="400" src="Reminder.png"></a>
 ## The Main Page
+
+### Adding a Task
+To add a new task to your to-do list, follow these steps:
+
+- Launch the To-Do List App on your device.
+- Click the "New ToDo" button (+) located at the bottom-left corner of the main screen.
+- Enter the name and any additional details for the task in the provided fields.
+- Click "Create" to add the task to your to-do list.
