@@ -21,8 +21,8 @@ This is a To-Do List App developed using SwiftUI. The app allows users to organi
 
 ## Installation
 To install the app on your device, please follow these steps:
-- Make sure you have Xcode 15 beta 4 installed on your Mac.
-- Clone this repository to your computer:
+First make sure you have Xcode 15 beta 4 installed on your Mac. 
+Then clone this repository to your computer:
 
 ```bash
 git clone https://github.com/N3v1/Apple-Calculator-Rebuild.git
