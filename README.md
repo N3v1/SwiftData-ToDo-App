@@ -2,6 +2,17 @@
 <!--<img align="right"  width="100" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"></a>-->
 This is a To-Do List App developed using SwiftUI. The app allows users to organize and manage their tasks by displaying them in a clear list. Users can add new tasks, edit or delete existing tasks, and track the progress of their tasks.
 
+### Table of Contents
+1. [Minimum Requirements](https://github.com/N3v1/To-Do-App#minimum-requirements)
+2. [Features](https://github.com/N3v1/To-Do-App#features)
+3. [Installation](https://github.com/N3v1/To-Do-App#installation)
+4. [Technical Details](https://github.com/N3v1/To-Do-App#technical-details)
+   - [Technologies](https://github.com/N3v1/To-Do-App#technologies)
+   - [How to use this App](https://github.com/N3v1/To-Do-App#how-to-use-this-app)
+   - [Contributing](https://github.com/N3v1/To-Do-App#contributing)
+   - [License](https://github.com/N3v1/To-Do-App#license)
+   - [Known issues](https://github.com/N3v1/To-Do-App#known-issues)
+
 <img align="right" width="400" src="Reminder.png"></a> 
 ## Minimum Requirements
 - iOS 17
