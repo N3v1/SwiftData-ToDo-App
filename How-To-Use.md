@@ -32,7 +32,6 @@ The homepage is the application's core feature as it enables users to monitor an
 
 ### Adding a Task
 To add a new task to your to-do list, follow these steps:
-
 - Launch the To-Do List App on your device.
 - Click the "New ToDo" button (+) located at the bottom-left corner of the main screen.
 - Enter the name and any additional details for the task in the provided fields.
