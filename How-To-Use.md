@@ -25,8 +25,8 @@ Choose your target device (simulator or connected device) and click "Run" (or pr
 - Xcode 15 beta 4
 - iOS 17
   
-<img align="right" width="400" src="Reminder.png"></a>
-<!--<img align="right" width="200" src="CreateToDo.png"></a>-->
+<!--<img align="right" width="400" src="Reminder.png"></a>-->
+<img align="right" width="350" src="CreateToDo.png"></a>
 ## The Main Page
 The homepage is the application's core feature as it enables users to monitor and view all their tasks. It provides essential tools to increase productivity and boasts an aesthetically pleasing design.
 
@@ -36,3 +36,9 @@ To add a new task to your to-do list, follow these steps:
 - Click the "New ToDo" button (+) located at the bottom-left corner of the main screen.
 - Enter the name and any additional details for the task in the provided fields.
 - Click "Create" to add the task to your to-do list.
+
+<!--|                     **Create new To-Do**                 |                 **Create new To-Do**                      |
+|     :---------------------------------------------:        |    :---------------------------------------------:        |
+| <img align="right" width="200" src="CreateToDo.png"></a>   |  <img align="right" width="200" src="Reminder.png"></a>   |-->
+
+
