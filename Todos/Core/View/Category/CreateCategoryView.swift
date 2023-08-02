@@ -86,7 +86,6 @@ struct CreateCategoryView: View {
 }
 
 // Xcode 15 Beta 2 has a previews bug so this is why we're commenting this out...
-// Ref: https://mastodon.social/@denisdepalatis/110561280521551715
 //#Preview {
 //    NavigationStack {
 //        CreateCategoryView()
