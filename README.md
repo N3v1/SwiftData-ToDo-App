@@ -2,6 +2,17 @@
 <!--<img align="right"  width="100" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"></a>-->
 This is a To-Do List App developed using SwiftUI. The app allows users to organize and manage their tasks by displaying them in a clear list. Users can add new tasks, edit or delete existing tasks, and track the progress of their tasks.
 
+### Table of Contents
+1. [Minimum Requirements](https://github.com/N3v1/To-Do-App#minimum-requirements)
+2. [Features](https://github.com/N3v1/To-Do-App#features)
+3. [Installation](https://github.com/N3v1/To-Do-App#installation)
+4. [Technical Details](https://github.com/N3v1/To-Do-App#technical-details)
+   - [Technologies](https://github.com/N3v1/To-Do-App#technologies)
+   - [How to use this App](https://github.com/N3v1/To-Do-App#how-to-use-this-app)
+   - [Contributing](https://github.com/N3v1/To-Do-App#contributing)
+   - [License](https://github.com/N3v1/To-Do-App#license)
+   - [Known issues](https://github.com/N3v1/To-Do-App#known-issues)
+
 <img align="right" width="400" src="Reminder.png"></a> 
 ## Minimum Requirements
 - iOS 17
@@ -21,8 +32,12 @@ This is a To-Do List App developed using SwiftUI. The app allows users to organi
 
 ## Installation
 To install the app on your device, please follow these steps:
-- Make sure you have Xcode 15 beta 4 installed on your Mac.
-- Clone this repository to your computer:
+First make sure you have Xcode 15 beta 4 installed on your Mac. 
+Then clone this repository to your computer:
+
+```bash
+git clone https://github.com/N3v1/Apple-Calculator-Rebuild.git
+```
 
 ## Technical Details
 ### Technologies
@@ -37,7 +52,7 @@ This app was developed using the following technologies:
    Link to the Swift Data documentation [**here**](https://developer.apple.com/documentation/swiftdata/).
 
 ### How to use this app
-
+For an introduction to "How to use the app" click [**here**](How-To-Use.md).
 
 ### Contributing
 If you would like to contribute to this project, I welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code.
