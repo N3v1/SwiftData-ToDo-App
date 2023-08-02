@@ -20,28 +20,20 @@ struct CreateTodoView: View {
     
     var body: some View {
         List {
-            
             Section("To do title") {
                 TextField("Name", text: $item.title)
             }
             
             Section("General") {
-                DatePicker("Choose a date",
-                           selection: $item.timestamp)
+                DatePicker("Choose a date", selection: $item.timestamp)
                 Toggle("Important?", isOn: $item.isCritical)
             }
             
             Section("Select A Category") {
-                
-                
                 if categories.isEmpty {
-                    
-                    ContentUnavailableView("No Categories",
-                                           systemImage: "archivebox")
-                    
+                    ContentUnavailableView("No Categories", systemImage: "archivebox")
                 } else {
                     Picker("", selection: $selectedCategory) {
-                        
                         ForEach(categories) { category in
                             Text(category.title)
                                 .tag(category as Category?)
@@ -53,8 +45,6 @@ struct CreateTodoView: View {
                     .labelsHidden()
                     .pickerStyle(.inline)
                 }
-                
-
             }
 
             Section {
@@ -62,13 +52,10 @@ struct CreateTodoView: View {
                     save()
                     dismiss()
                 }
-                .bold()
             }
-
         }
         .navigationTitle("Create ToDo")
         .toolbar {
-            
             ToolbarItem(placement: .cancellationAction) {
                 Button("Dismiss") {
                     dismiss()

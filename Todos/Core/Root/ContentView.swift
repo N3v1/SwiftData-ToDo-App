@@ -33,10 +33,12 @@ struct ContentView: View {
     
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    
     @State private var searchQuery = ""
     @State private var showCreateCategory = false
     @State private var showCreateToDo = false
     @State private var toDoToEdit: Item?
+    
     @State private var selectedSortOption = SortOption.allCases.first!
     
     var filteredItems: [Item] {
@@ -83,6 +85,7 @@ struct ContentView: View {
                                      .background(Color.blue.opacity(0.1), in: RoundedRectangle(cornerRadius: 8, style: .continuous))
                              }
                         }
+                        
                         Spacer()
                         
                         Button {
@@ -116,7 +119,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("My To Do List")
-            .animation(.easeIn, value: filteredItems)
+            .animation(/*@START_MENU_TOKEN@*/.easeIn/*@END_MENU_TOKEN@*/, value: filteredItems)
             .searchable(text: $searchQuery,
                         prompt: "Search for a to do or a category")
             .overlay {
@@ -170,8 +173,7 @@ struct ContentView: View {
                         .bold()
                         .font(.title2)
                         .padding(8)
-                        .background(.gray.opacity(0.1),
-                                    in: Capsule())
+                        .background(.gray.opacity(0.1), in: Capsule())
                         .padding(.leading)
                         .symbolVariant(.circle.fill)
                 })
@@ -204,7 +206,8 @@ private extension [Item] {
 }
 
 // Xcode 15 Beta 2 has a previews bug so this is why we're commenting this out...
-//#Preview {
-//    ContentView()
-//        .modelContainer(for: Item.self, inMemory: true)
-//}
+// Ref: https://mastodon.social/@denisdepalatis/110561280521551715
+#Preview {
+    ContentView()
+        .modelContainer(for: Item.self, inMemory: true)
+}

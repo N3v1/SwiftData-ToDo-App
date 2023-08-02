@@ -42,19 +42,13 @@ struct CreateCategoryView: View {
                         title = ""
                     }
                 }
-                .bold()
                 .disabled(title.isEmpty)
             }
             
             Section("Categories") {
-                
                 if categories.isEmpty {
-                    
-                    ContentUnavailableView("No Categories",
-                                           systemImage: "archivebox")
-                    
+                    ContentUnavailableView("No Categories", systemImage: "archivebox")
                 } else {
-                    
                     ForEach(categories) { category in
                         Text(category.title)
                             .swipeActions {
@@ -68,14 +62,10 @@ struct CreateCategoryView: View {
                             }
                     }
                 }
-                
-
             }
-            
         }
         .navigationTitle("Add Category")
         .toolbar {
-            
             ToolbarItem(placement: .cancellationAction) {
                 Button("Dismiss") {
                     dismiss()
@@ -86,8 +76,8 @@ struct CreateCategoryView: View {
 }
 
 // Xcode 15 Beta 2 has a previews bug so this is why we're commenting this out...
-//#Preview {
-//    NavigationStack {
-//        CreateCategoryView()
-//    }
-//}
+#Preview {
+    NavigationStack {
+        CreateCategoryView()
+    }
+}

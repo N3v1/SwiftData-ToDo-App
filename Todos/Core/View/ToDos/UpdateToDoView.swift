@@ -24,11 +24,8 @@ class OriginalToDo {
 struct UpdateToDoView: View {
     
     @Environment(\.dismiss) var dismiss
-    
     @Query private var categories: [Category]
-    
     @State var selectedCategory: Category?
-
     @Bindable var item: Item
 
     var body: some View {
@@ -39,25 +36,15 @@ struct UpdateToDoView: View {
             }
             
             Section("General") {
-                DatePicker("Choose a date",
-                           selection: $item.timestamp)
+                DatePicker("Choose a date", selection: $item.timestamp)
                 Toggle("Important?", isOn: $item.isCritical)
             }
             
-            
-            
             Section("Select A Category") {
-                
-                
                 if categories.isEmpty {
-                    
-                    ContentUnavailableView("No Categories",
-                                           systemImage: "archivebox")
-                    
+                    ContentUnavailableView("No Categories", systemImage: "archivebox")
                 } else {
-                    
                     Picker("", selection: $selectedCategory) {
-                        
                         ForEach(categories) { category in
                             Text(category.title)
                                 .tag(category as Category?)
@@ -69,8 +56,6 @@ struct UpdateToDoView: View {
                     .labelsHidden()
                     .pickerStyle(.inline)
                 }
-                
-
             }
             
             Section {
@@ -78,7 +63,6 @@ struct UpdateToDoView: View {
                     item.category = selectedCategory
                     dismiss()
                 }
-                .bold()
             }
         }
         .navigationTitle("Update ToDo")
@@ -89,7 +73,6 @@ struct UpdateToDoView: View {
 }
 
 // Xcode 15 Beta 2 has a previews bug so this is why we're commenting this out...
-// Ref: https://mastodon.social/@denisdepalatis/110561280521551715
 //#Preview {
 //    UpdateToDoView(item: Item.dummy)
 //        .modelContainer(for: Item.self)
