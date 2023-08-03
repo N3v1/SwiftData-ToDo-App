@@ -61,4 +61,6 @@ If you would like to contribute to this project, I welcome pull requests. Please
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for more information.
 
 ### Known issues
-None
+- [**🌟 Feature: Adding Darkmode support (#4)**](https://github.com/N3v1/To-Do-App/issues/4)
+- [**📖 Documentation: Need help writing How-To-Use.md (#3)**](https://github.com/N3v1/To-Do-App/issues/3) 
+- [**☑️ ToDo: Unable to create categories (#2)**](https://github.com/N3v1/To-Do-App/issues/2)
