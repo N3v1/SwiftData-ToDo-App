@@ -70,6 +70,6 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 ## Translation
 This guide is also available in other languages:
 <!-- Languages start -->
-<!-- - [**🇩🇪 German**]() -->
+- [**🇩🇪 German**](translation/README_de.md)
 
 <!-- Languages end -->
