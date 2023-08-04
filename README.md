@@ -71,5 +71,5 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 This guide is also available in other languages:
 <!-- Languages start -->
 - [**🇩🇪 German**](translation/README_de.md)
-
+- [**🇵🇱 Polish**](translation/README_pl.md)
 <!-- Languages end -->
