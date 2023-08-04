@@ -13,8 +13,8 @@ Dies ist eine To-Do-Listen-App, die mit SwiftUI entwickelt wurde. Mit der App k√
    - [License](https://github.com/N3v1/To-Do-App#license)
    - [Known issues](https://github.com/N3v1/To-Do-App#known-issues)
 
-<!-- TODO: Implement Image
-<img align="right" width="400" src="Reminder.png"></a>--> 
+
+<img align="right" width="400" src="../Reminder.png"></a>
 ## Anforderungen
 - iOS 17
 - macOS 13.4+
