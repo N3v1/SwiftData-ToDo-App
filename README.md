@@ -55,7 +55,7 @@ This app was developed using the following technologies:
 For an introduction to "How to use the app" click [**here**](How-To-Use.md).
 
 ### Contributing
-If you would like to contribute to this project, I welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code.
+If you would like to contribute to this project, I welcome pull requests. Please ensure that your changes are well-documented and maintain clean, readable code. See [**`Contributing.md`**](Contribute.md).
 
 ### License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for more information.
